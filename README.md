@@ -1,4 +1,7 @@
+#include<iostream>
+#include<ctime>
 using namespace std;
+	
 void main()
 {
 	setlocale(LC_ALL, "ru");
@@ -6,7 +9,6 @@ void main()
 
 	const int SIZE = 10;
 	int arr[SIZE];
-
 	bool AlreadyThere;
 
 	for (int i = 0; i < SIZE;)
